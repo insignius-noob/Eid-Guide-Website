@@ -1,0 +1,169 @@
+header {
+  font-family: sans-serif, arial;
+  background-color: #22223b;
+  border: 5px #241715 solid;
+  border-radius: 2px;
+  color: aliceblue;
+  font-size: smaller;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h1::first-letter {
+  font-size: larger;
+  font-family: sans-serif, arial;
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background-color: #4a4e69;
+}
+
+#home-page-mainbody {
+  margin-top: 10px;
+  background-color: #22223b;
+  border: 5px #241715 solid;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif, arial;
+}
+
+#home-page-mainbody img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #241715;
+  border-radius: 50%;
+  border-width: 3px;
+}
+
+.first-page-images {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#home-page-browsing {
+  display: flex;
+  justify-content: center;
+  background-color: #22223b;
+  border: 5px solid #241715;
+  margin-top: 10px;
+  font-family: sans-serif, arial;
+  color: white;
+}
+
+#home-page-browsing nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  background-color: #22223b;
+  border: 5px solid #241715;
+  margin-top: 10px;
+  font-family: sans-serif, arial;
+  color: white;
+}
+
+.footer-link-styles {
+  text-decoration: none;
+}
+
+/* following is for the receipe page */
+#recipe-page-mainbody {
+  background-color: #22223b;
+  border: 5px solid #241715;
+  margin-top: 10px;
+  font-family: sans-serif, arial;
+  color: white;
+}
+
+.recipe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 30%;
+  border: 3px solid #241715;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* following is for Eid decor */
+#decor-section {
+  background-color: #22223b;
+  border: 5px solid #241715;
+  margin-top: 10px;
+  font-family: sans-serif, arial;
+  color: white;
+}
+
+.decor-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decor-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 30%;
+  border: 3px solid #241715;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* feedback */
+#feedback-submission {
+  background-color: #22223b;
+  border: 5px solid #241715;
+  margin-top: 10px;
+  padding: 20px;
+  color: white;
+  font-family: sans-serif, arial;
+}
+
+#feedback-submission h2 {
+  text-align: center;
+}
+
+#feedback-submission form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#feedback-submission input,
+#feedback-submission textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #241715;
+  border-radius: 5px;
+}
+
+#form-button {
+  background-color: #5e548e;
+  width: 10%;
+  height: 10%;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+}
+
+#form-button:hover {
+  background-color: #4a4e69;
+}
